@@ -13,6 +13,10 @@
   )
 
   (page User 200 119.99)
+  (title_block
+    (date 2017-01-22)
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -57,7 +61,7 @@
     (grid_origin 83.185 57.15)
     (visible_elements FFFFF77F)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x00020_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -76,11 +80,11 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 4)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory /Users/frits/Documents/Projects/mrf24j40-nucleo/Gerber))
+      (outputdirectory pdf/))
   )
 
   (net 0 "")
