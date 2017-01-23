@@ -3,9 +3,9 @@
   (general
     (links 11)
     (no_connects 0)
-    (area 83.109999 15.693142 214.320002 85.415002)
+    (area 69.620001 15.693142 214.320002 85.415002)
     (thickness 1.6)
-    (drawings 15)
+    (drawings 16)
     (tracks 55)
     (zones 0)
     (modules 2)
@@ -231,6 +231,9 @@
     )
   )
 
+  (gr_text v1 (at 100.33 33.655) (layer F.SilkS) (tstamp 58853A4B)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
   (gr_text "Nucleo Keppeltje\n" (at 90.805 33.655) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)))
   )
