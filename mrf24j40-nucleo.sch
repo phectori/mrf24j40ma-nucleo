@@ -37,7 +37,7 @@ encoding utf-8
 Sheet 1 1
 Title ""
 Date "2017-01-22"
-Rev ""
+Rev "1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -149,19 +149,6 @@ Wire Wire Line
 	4500 1150 5000 1150
 Wire Wire Line
 	5500 1250 5950 1250
-$Comp
-L +3.3V #PWR05
-U 1 1 5884BC0A
-P 5700 1550
-F 0 "#PWR05" H 5700 1400 50  0001 C CNN
-F 1 "+3.3V" H 5700 1690 50  0000 C CNN
-F 2 "" H 5700 1550 60  0000 C CNN
-F 3 "" H 5700 1550 60  0000 C CNN
-	1    5700 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 1550 5500 1550
 $Comp
 L CONN_02X08 P1
 U 1 1 5884EF43
